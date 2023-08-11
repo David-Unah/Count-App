@@ -15,7 +15,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: blue;
+        background-image: url("./img/20230409_100331.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 253px;
         border-radius: 0px 0px 30px 30px;
     }
@@ -117,5 +119,53 @@
         justify-content: center;
         align-items: center;
         margin-top: 30px;
+    }
+
+    .mainbutton--box {
+        /* display: none; */
+        width: 57.5%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .maincount--button {
+        position: relative;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 6px 6px 6px #CDCDCD;
+    }
+
+    .maincount--button:active {
+        top: 5px;
+        box-shadow: none;
+    }
+
+    .demopraph--box {
+        display: none;
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .demopraph {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .demopraph > div > p {
+        text-align: center;
+    }
+
+    .personNumber {
+        color: #757575;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .gender {
+        color: #BCBCBC;
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: 4px;
     }
 }
