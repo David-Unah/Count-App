@@ -122,14 +122,14 @@
     }
 
     .mainbutton--box {
-        display: none;
-        width: 57.5%;
-        margin: auto;
         margin-top: 30px;
+        text-align: center;
     }
 
     .maincount--button {
         position: relative;
+        width: auto;
+        margin: auto;
         border-radius: 50%;
         border: none;
         box-shadow: 6px 6px 6px #CDCDCD;
@@ -141,6 +141,7 @@
     }
 
     .demopraph--box {
+        display: none;
         width: 80%;
         margin: auto;
         margin-top: 25px;
