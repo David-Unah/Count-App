@@ -122,7 +122,7 @@
     }
 
     .mainbutton--box {
-        /* display: none; */
+        display: none;
         width: 57.5%;
         margin: auto;
         margin-top: 30px;
@@ -141,7 +141,6 @@
     }
 
     .demopraph--box {
-        display: none;
         width: 80%;
         margin: auto;
         margin-top: 25px;
