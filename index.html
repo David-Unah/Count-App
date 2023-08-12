@@ -24,17 +24,19 @@
         </div>
       </div>
       <div class="lower--box">
-        <img src="./img/image 10.png" alt="turtle image" />
+        <img src="./img/image 10.png" alt="lightening icon" id="lighten" class="lightening"/>
+        <img src="./img/turtle_1f422 1.png" alt="turtle image" id="turtle" class="turtlle"/>
         <p id="numberCount">0</p>
       </div>
     </div>
     <div class="middle--box">
       <div>
-        <img src="./img/Group 277.png" alt="speed icon" />
+        <img src="./img/Group 277.png" alt="speed icon" onclick="speedCount()"/>
         <p>Speed Count</p>
       </div>
       <div>
-        <img src="./img/Group 257 (1).png" alt="lock counter icon" />
+        <img src="./img/Group 257 (1).png" alt="lock counter icon" onclick="triggerCounter()" class="lock--counter" id="lockCount"/>
+        <img src="./img/Group 257.png" alt="lock counter icon" onclick="triggerCounter()" class="unlock--counter" id="unlockCount"/>
         <p>Lock Counter</p>
       </div>
       <div>
@@ -47,12 +49,22 @@
       </div>
     </div>
     <div class="mainbutton--box">
-      <button class="maincount--button" onclick="mainBtn()">
+      <button class="maincount--button" id="mainCount">
         <img
           src="./img/Group 255 (1).png"
           alt="count trigger button"
           width="240"
           height="240"
+          class="unlocked-trigger"
+          id="unlockedBtn"
+        />
+        <img
+          src="./img/Group 255 (2).png"
+          alt="count trigger button"
+          width="240"
+          height="240"
+          class="locked-trigger"
+          id="lockedBtn"
         />
       </button>
     </div>

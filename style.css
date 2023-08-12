@@ -150,6 +150,7 @@
     .demopraph {
         display: flex;
         justify-content: space-between;
+       
     }
 
     .demopraph > div > p {
@@ -167,5 +168,37 @@
         font-size: 8px;
         font-weight: 600;
         margin-top: 4px;
+    }
+
+/*     .lightening {
+        display: block;
+    } */
+
+  /*   .turtlle {
+        display: none;
+    } */
+
+    .unlocked-trigger, .lightening {
+        display: block;
+    }
+
+    .locked-trigger, .unlock--counter, .turtlle {
+        display: none;
+    }
+
+    .unshow {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .offshadow  {
+        box-shadow: none;
+    }
+
+    .offshadow:active {
+        top: 0px;
     }
 }
