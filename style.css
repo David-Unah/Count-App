@@ -110,7 +110,13 @@
         font-weight: 600;
     }
 
-    .middle--box > div > p {
+    .speedcount {
+        color: #000;
+        margin-top: 8px;
+    }
+
+    .middlebox-p {
+        color: #BCBCBC;
         margin-top: 6px;
     }
 
@@ -170,19 +176,13 @@
         margin-top: 4px;
     }
 
-/*     .lightening {
-        display: block;
-    } */
 
-  /*   .turtlle {
-        display: none;
-    } */
 
-    .unlocked-trigger, .lightening {
+    .unlocked-trigger, .lightening, .offspeedcount {
         display: block;
     }
 
-    .locked-trigger, .unlock--counter, .turtlle {
+    .locked-trigger, .unlock--counter, .turtlle, .onspeedcount {
         display: none;
     }
 
@@ -200,5 +200,15 @@
 
     .offshadow:active {
         top: 0px;
+    }
+
+    
+
+    .color {
+        color: #BCBCBC;
+    }
+
+    .colorBlack {
+        color: #000;
     }
 }

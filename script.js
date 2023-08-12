@@ -19,6 +19,8 @@ function triggerCounter() {
     lockCount.classList.toggle("unshow")
     mainCount.classList.toggle("offshadow")
     mainCount.classList.toggle("offshadow:active")
+    const lockP = document.getElementById("lockCounterP")
+    lockP.classList.toggle("colorBlack")
 
 }
 
@@ -27,4 +29,10 @@ function speedCount() {
     lighten.classList.toggle("unshow")
     let turtle = document.getElementById("turtle")
     turtle.classList.toggle("show")
+    const offSpeed = document.getElementById("on-speed")
+    offSpeed.classList.toggle("show")
+    const onSpeed = document.getElementById("off-speed")
+    onSpeed.classList.toggle("unshow")
+    const speedCountP = document.getElementById("speedCount-p")
+    speedCountP.classList.toggle("color")
 }
