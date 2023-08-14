@@ -1,9 +1,9 @@
 let startCount = document.getElementById("unlockedBtn")
     let count = 0
 startCount.addEventListener("click", function mainBtn() {
-    let numberCount = document.getElementById("numberCount")
+    const numberCount = document.getElementById("numberCount")
     count++
-    numberCount.textContent = count
+    numberCount.textContent = count + demoMaleCount + demoFemmaleCount + demoChildCount
 })
 
 
@@ -51,4 +51,28 @@ function demoSwitch() {
     demoBoxContent.classList.toggle("show")
     const mainBtnTab = document.getElementById("mainbtn--tab")
     mainBtnTab.classList.toggle("unshow")
+}
+
+let demoMaleCount = 0
+function incrementMale() {
+    const maleCount = document.getElementById("maleCount")
+    demoMaleCount++
+    maleCount.textContent = demoMaleCount
+    numberCount.textContent = count + demoMaleCount + demoFemmaleCount + demoChildCount
+}
+
+let demoFemmaleCount = 0
+function incrementFemale() {
+    const femaleCount = document.getElementById("femaleCount")
+    demoFemmaleCount++
+    femaleCount.textContent = demoFemmaleCount
+    numberCount.textContent = count + demoMaleCount + demoFemmaleCount + demoChildCount
+}
+
+let demoChildCount = 0
+function incrementChild() {
+    const childCount = document.getElementById("childCount")
+    demoChildCount++
+    childCount.textContent = demoChildCount
+    numberCount.textContent = count + demoMaleCount + demoFemmaleCount + demoChildCount
 }

@@ -177,6 +177,10 @@
         text-align: center;
     }
 
+    .demograph--image {
+        cursor: pointer;
+    }
+
     .personNumber {
         color: #757575;
         font-size: 20px;
