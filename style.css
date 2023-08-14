@@ -76,12 +76,26 @@
         padding: 0px 5px;
         border-radius: 30px;
         background: #FAFAFA;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .activerightinner--box {
+        background: #222;
     }
 
     .rightinner--box > p {
         color: #CDCDCD;
         font-size: 10px;
         font-weight: 600;
+    }
+
+    .demo-p {
+
+    }
+
+    .activedemo-p {
+        color: white;
     }
 
     .lower--box {
@@ -150,7 +164,7 @@
         display: none;
         width: 80%;
         margin: auto;
-        margin-top: 25px;
+        margin-top: 30px;
     }
 
     .demopraph {
@@ -178,11 +192,11 @@
 
 
 
-    .unlocked-trigger, .lightening, .offspeedcount {
+    .unlocked-trigger, .lightening, .offspeedcount, .offDemo {
         display: block;
     }
 
-    .locked-trigger, .unlock--counter, .turtlle, .onspeedcount {
+    .locked-trigger, .unlock--counter, .turtlle, .onspeedcount, .onDemo {
         display: none;
     }
 

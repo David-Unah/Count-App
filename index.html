@@ -17,9 +17,10 @@
           <img src="./img/person 2.png" alt="person icon" />
           <p>Total number of People</p>
         </div>
-        <div class="rightinner--box">
-          <img src="./img/Group 259.png" alt="demography icon" />
-          <p>Demographic</p>
+        <div class="rightinner--box" onclick="demoSwitch()" id="demoBox">
+          <img src="./img/Group 259.png" alt="demography icon" class="offDemo" id="off-demo" />
+          <img src="./img/Group 259 (1).png" alt="demography icon" class="onDemo" id="on-demo" />
+          <p class="demo-p" id="demographic-p">Demographic</p>
           <img src="./img/down-chevron 1.png" alt="down arrow" />
         </div>
       </div>
@@ -49,7 +50,7 @@
         <p class="middlebox-p">Unknown icon</p>
       </div>
     </div>
-    <div class="mainbutton--box">
+    <div class="mainbutton--box" id="mainbtn--tab">
       <button class="maincount--button" id="mainCount">
         <img
           src="./img/Group 255 (1).png"
@@ -69,7 +70,7 @@
         />
       </button>
     </div>
-    <div class="demopraph--box">
+    <div class="demopraph--box" id="demobox--content">
       <div class="demopraph">
         <div>
           <img src="./img/Group 275.png" alt="male icon" />

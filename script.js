@@ -36,3 +36,19 @@ function speedCount() {
     const speedCountP = document.getElementById("speedCount-p")
     speedCountP.classList.toggle("color")
 }
+
+
+function demoSwitch() {
+    const offDemo = document.getElementById("off-demo")
+    offDemo.classList.toggle("unshow")
+    const onDemo = document.getElementById("on-demo")
+    onDemo.classList.toggle("show")
+    const demoBox = document.getElementById("demoBox")
+    demoBox.classList.toggle("activerightinner--box")
+    const demoP = document.getElementById("demographic-p")
+    demoP.classList.toggle("activedemo-p")
+    const demoBoxContent = document.getElementById("demobox--content")
+    demoBoxContent.classList.toggle("show")
+    const mainBtnTab = document.getElementById("mainbtn--tab")
+    mainBtnTab.classList.toggle("unshow")
+}
