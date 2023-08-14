@@ -15,10 +15,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("./img/20230409_100331.jpg");
+        /* background-image: url("./img/20230409_100331.jpg"); */
+        background-color: #000;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 253px;
+        height: 200px;
         border-radius: 0px 0px 30px 30px;
     }
 
